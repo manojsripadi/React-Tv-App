@@ -1,0 +1,20 @@
+.Person{
+    max-width:20%;
+    margin:0 auto;
+    height:150px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: aqua;
+}
+.Person:focus{
+    outline: 3px solid orange;
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+}
+
+
+/* .Person:hover{
+    outline: 3px solid orange;
+} */

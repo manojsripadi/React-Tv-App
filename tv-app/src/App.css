@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  background-image: url('https://images.ctfassets.net/tzb4ihmthaev/5DWjyRXshTVLb8VPJwtNr0/824ad353f0bb02950483e3004e6aee0c/tvlanding-all-lrg2x.jpg');
+   height:440px;
+   background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:40px;
+}
+
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+.carousel{
+  display:flex;
+  flex-direction:row;
+  margin:0 auto;
+  overflow:hidden;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
